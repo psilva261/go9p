@@ -4,6 +4,8 @@ package go9p
 
 import (
 	"io/ioutil"
+	"os"
+	"path"
 	"syscall"
 	"testing"
 )

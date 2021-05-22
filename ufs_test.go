@@ -3,6 +3,7 @@
 package go9p
 
 import (
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"net"
