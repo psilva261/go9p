@@ -1,11 +1,8 @@
-This is go9p done in a way that I can understand.
+Fork of github.com/rminnich/go9p with 2 additional
+patches from github.com/fhs/go9p that fix the Plan 9 build and Rwstat unpacking.
 
 To install:
-  export GOPATH=~rminnich/go
-  go get -a github.com/rminnich/go9p
-  go get -a github.com/rminnich/go9p/ufs
-  go install -a github.com/rminnich/go9p/ufs
 
-~/go/bin/ufs
+go get github.com/psilva261/go9p/...
 
-
+go install github.com/psilva261/go9p/ufs

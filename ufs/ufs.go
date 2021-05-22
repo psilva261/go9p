@@ -7,7 +7,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/rminnich/go9p"
+	"github.com/psilva261/go9p"
 	"log"
 )
 
